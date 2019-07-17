@@ -1,0 +1,52 @@
+.header {
+  display: grid;
+  color: var(--text);
+  width: 100%;
+  position: fixed;
+  grid-area: header;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 3em;
+  grid-template-areas: "logoimg logo null home products about contact";
+}
+.box {
+  background-image: var(--backgroundimg);
+  color: var(--background);
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+.box {
+  background-image: var(--backgroundimg);
+  color: var(--background);
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+.logoimg {
+  display: grid;
+  grid-area: logoimg;
+}
+.logo {
+  display: grid;
+  grid-area: logo;
+}
+.home {
+  display: grid;
+  grid-area: home;
+}
+.products {
+  display: grid;
+  grid-area: products;
+}
+.about {
+  display: grid;
+  grid-area: about;
+}
+.contact {
+  display: grid;
+  grid-area: contact;
+}
